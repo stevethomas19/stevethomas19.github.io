@@ -1,0 +1,87 @@
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 100;
+}
+
+h3 {
+	margin: 0;
+}
+
+label {
+	display: block;
+}
+
+.container {
+	margin: auto;
+	width: 80%;
+	padding: 2em;
+}
+
+#top-nav {
+	background-color: #12135b;
+	width: 100%;
+	padding: 1em;
+	color: white;
+	font-size: 1.5em;
+}
+
+#top-nav span {
+	padding: 1em;
+}
+
+#top-nav span:hover {
+	cursor: pointer;
+}
+
+#home {
+	font-size: 1.75em;
+}
+
+#form {
+	margin: auto;
+	width: 50%;
+	padding: 1em;
+	background-color: #e1e1ef;
+}
+
+/*-- our cleafix hack -- */
+.row:before,
+.row:after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.row {
+	margin-bottom: .5em;
+}
+
+[class*='col-'] {
+	float: left;
+	min-height: 1px;
+	width: 42%;
+}
+
+.col-1 {
+	text-align: right;
+	margin-right: 1em;
+}
+
+.col-2 {
+	text-align: left;
+}
+
+input[type="button"]{
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+	padding: .5em 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
